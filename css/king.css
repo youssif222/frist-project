@@ -33,6 +33,7 @@
     height: 15px;
 }
 
+
 /* ********************* container-wrapper */
 
 .wrapper .container-wrapper section {
@@ -255,10 +256,92 @@
     margin-top: 100px;
 }
 
-i {
-    font-size: 400px;
-    color: blue;
+/* contact wrapper */
+
+.wrapper .contact-wrapper {
+    display: flex;
+    flex-direction: column;
+    width: 1525px;
+    margin-left: -160px;
+    background-color: var(--primary-color);
+    font-family: 'Rubik', sans-serif;
+    color: white;
+    margin-bottom: 200px;
+    justify-items: center;
+    align-items: center;
+    padding: 10px;
+    height: 531px;
 }
+
+.wrapper .contact-wrapper span::before {
+    position: absolute;
+    content: "HELLO";
+    FONT-SIZE: 400px;
+    top: -55px;
+    left: -535px;
+    color: rgb(240 248 255 / 5%);
+
+}
+
+.wrapper .contact-wrapper .links {
+    display: flex;
+    width: 70%;
+    justify-content: space-evenly;
+    z-index: 3;
+}
+
+.wrapper .contact-wrapper span {
+    font-size: 25px;
+    padding: 10px;
+    margin-top: 50px;
+    position: relative;
+
+}
+
+.wrapper .contact-wrapper h6 {
+    font-size: 35px;
+    padding: 10px;
+    margin-bottom: 30px;
+    word-spacing: 10px;
+}
+
+.wrapper .contact-wrapper button {
+    width: 8%;
+    height: 50px;
+    font-size: 20px;
+    margin-top: 50px;
+    margin-bottom: 120px;
+    z-index: 2;
+}
+
+/* &&&&&&&&&&&&77 number-wrapper */
+
+.wrapper .number-wrapper {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Ubuntu', sans-serif;
+    font-size: 30px;
+    margin-bottom: 300px;
+    /* align-items: center;
+    justify-items: center; */
+}
+
+.wrapper .number-wrapper h3 {
+    font-size: 50px;
+    display: flex;
+    justify-items: center;
+    align-items: center;
+}
+
+.wrapper .number-wrapper span {
+    font-size: 15px;
+    margin-left: 20px;
+}
+
+.wrapper .number-wrapper span:first-of-type {
+    margin-left: -60px;
+}
+
 
 
 
@@ -267,6 +350,8 @@ i {
     .wrapper {
         padding: 0 2%;
     }
+
+
 
 
 }
