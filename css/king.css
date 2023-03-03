@@ -318,7 +318,7 @@
 
 .wrapper .number-wrapper {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
     font-family: 'Ubuntu', sans-serif;
     font-size: 30px;
     margin-bottom: 300px;
@@ -339,8 +339,29 @@
 }
 
 .wrapper .number-wrapper span:first-of-type {
-    margin-left: -60px;
+    margin-left: -15px;
+    position: relative;
 }
+
+.wrapper .number-wrapper div .three {
+    margin-left: 20px;
+}
+
+.wrapper .number-wrapper div .four {
+    margin-left: 5px;
+}
+
+.wrapper .number-wrapper .three::before {
+    position: absolute;
+    content: "Project";
+    font-size: 200px;
+    left: -605px;
+    top: -149px;
+    letter-spacing: 56px;
+    color: #d6d6d640;
+    font-family: 'Rubik', sans-serif;
+}
+
 
 
 
