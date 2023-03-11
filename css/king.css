@@ -112,11 +112,18 @@
 
 /* %%%%%%%%%%%%%%%%%%%%%%5 video-wrapper */
 
-.wrapper .video-wrapper {
+.wrapper .video-wrapper p {
+    font-size: 30px;
+    text-align: center;
     margin-top: 30px;
+    font-family: 'Rubik', sans-serif;
+}
+
+.wrapper .video-wrapper img {
     display: flex;
     justify-content: center;
-
+    width: 1150px;
+    height: 715px;
 }
 
 /*  $$$$$$$$$$$$$$$$$$$$$$$$$$$$$ what-wrapper */
@@ -163,6 +170,8 @@
     font-size: 25px;
     top: -4px;
 }
+
+
 
 /*  ####################photo-wrapper */
 
@@ -258,7 +267,7 @@
 
 /* contact wrapper */
 
-.wrapper .contact-wrapper {
+.wrapper .contact-wrapper .contact {
     display: flex;
     flex-direction: column;
     width: 1525px;
@@ -503,17 +512,395 @@
     background-color: black;
 }
 
+/* @@@@@@@@@@@@@@@@@@@@@@@footer-wrapper */
+
+.wrapper .footer-wrapper footer {
+    display: flex;
+    justify-content: space-between;
+    font-family: 'Rubik', sans-serif;
+    margin-bottom: 20px;
+}
+
+.wrapper .footer-wrapper footer .links {
+    width: 400px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.wrapper .footer-wrapper footer .links img {
+
+    width: 20px;
+    height: 20px;
+
+}
 
 
-
-
-@media(max-width: 1440px) {
+@media (min-width:1152px) and (max-width:1439px) {
     .wrapper {
         padding: 0 2%;
     }
 
+    .wrapper .container-wrapper section {
+        display: flex;
+        justify-content: space-between;
+        padding: 30px;
+        margin-top: 40px;
+    }
+
+    .wrapper .container-wrapper h1 {
+        font-family: 'Rubik', sans-serif;
+        font-size: 30px;
+        letter-spacing: 2px;
+        width: 150px;
+    }
+
+    .wrapper .container-wrapper p {
+        font-family: 'Rubik', sans-serif;
+        font-size: 30px;
+        width: 410px;
+    }
+
+    .wrapper .container-wrapper span {
+        font-family: 'Rubik', sans-serif;
+        font-size: 20px;
+        width: 460px;
+        display: block;
+    }
 
 
+    .wrapper .container-wrapper .girl {
+        width: 434px;
+        height: 459px;
+    }
+
+    .wrapper .side-wrapper aside .scroll img {
+        position: absolute;
+        content: "";
+        top: 0px;
+        left: 430px;
+        width: 40px;
+        height: 40px;
+    }
+
+    .wrapper .side-wrapper aside .one {
+        margin-left: 7px;
+    }
+
+    .wrapper .video-wrapper p {
+        font-size: 30px;
+        text-align: center;
+        margin-top: 150px;
+        font-family: 'Rubik', sans-serif;
+        padding: 30px;
+    }
+
+    .wrapper .video-wrapper img {
+        width: 1050px;
+        height: 715px;
+        margin: 0px auto;
+    }
+
+    .wrapper .what-wrapper h2 {
+        font-family: 'Rubik', sans-serif;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        margin-top: 250px;
+        font-size: 45px;
+    }
+
+    .wrapper .what-wrapper .container div {
+        width: 342px;
+        height: 409px;
+        padding: 30px;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    .wrapper .what-wrapper .container span::after {
+        position: absolute;
+        content: "\2192";
+        right: -186px;
+        font-size: 25px;
+        top: -4px;
+    }
+
+    .wrapper .what-wrapper .container div .h1 {
+        width: 184px;
+        font-size: 40px;
+        overflow-wrap: break-word;
+    }
+
+    .wrapper .what-wrapper .container h1 {
+        font-size: 40px;
+    }
+
+    .wrapper .what-wrapper .side img {
+        margin-top: 50px;
+        width: -webkit-fill-available;
+        height: 20px;
+    }
+
+    .wrapper .photo-wrapper {
+        margin-top: 250px;
+    }
+
+    .wrapper .photo-wrapper .grid .one img {
+        width: 342px;
+        height: 525px;
+    }
+
+    .wrapper .photo-wrapper .grid .two img {
+        width: 342px;
+        height: 638px;
+    }
+
+    .wrapper .photo-wrapper .grid .three img {
+        width: 342px;
+        height: 419px;
+    }
+
+    .wrapper .photo-wrapper .grid .four img {
+        width: 342px;
+        height: 525px;
+    }
+
+    .wrapper .photo-wrapper .grid .five img {
+        width: 342px;
+        height: 412px;
+    }
+
+    .wrapper .photo-wrapper .grid .six img {
+        width: 342px;
+        height: 631px;
+    }
+
+    .wrapper .photo-wrapper .grid .one {
+        width: 342px;
+        height: 525px;
+    }
+
+    .wrapper .photo-wrapper .grid .two {
+        width: 342px;
+        height: 638px;
+    }
+
+    .wrapper .photo-wrapper .grid .three {
+        width: 342px;
+        height: 419px;
+    }
+
+    .wrapper .photo-wrapper .grid .four {
+        width: 342px;
+        height: 525px;
+    }
+
+    .wrapper .photo-wrapper .grid .five {
+        width: 342px;
+        height: 412px;
+    }
+
+    .wrapper .photo-wrapper .grid .six {
+        width: 342px;
+        height: 631px;
+    }
+
+    .wrapper .photo-wrapper .side {
+        margin-top: 50px;
+        width: 1089px;
+        height: 20px;
+        display: flex;
+    }
+
+    .wrapper .photo-wrapper .grid {
+        display: grid;
+        grid-template-columns: repeat(3, auto);
+        gap: 20px;
+        margin: 0px auto;
+        justify-content: space-between;
+    }
+
+    .wrapper .client-wrapper .client .text {
+        width: 542px;
+        height: 589px;
+        margin: 0px;
+    }
+
+    .wrapper .client-wrapper .client .man {
+        width: 486px;
+        height: 589px;
+        margin: 0px;
+    }
+
+    .wrapper .client-wrapper .client p {
+        font-size: 33px;
+    }
+
+    .wrapper .client-wrapper .client .text .img {
+        width: 100%;
+        margin-top: 87px;
+    }
+
+
+
+    .wrapper .contact-wrapper {
+        display: flex;
+        flex-direction: column;
+        width: revert;
+        background-color: var(--primary-color);
+        font-family: 'Rubik', sans-serif;
+        color: white;
+        justify-items: center;
+        align-items: center;
+        margin: 0px -2%;
+    }
+
+    .wrapper .contact-wrapper .links {
+        display: flex;
+        width: 90%;
+        justify-content: space-evenly;
+        z-index: 3;
+    }
+
+    .wrapper .contact-wrapper span::before {
+        position: absolute;
+        content: "Hello";
+        FONT-SIZE: 400px;
+        top: -23px;
+        left: -470px;
+        letter-spacing: 29px;
+        color: rgb(240 248 255 / 5%);
+    }
+
+    .wrapper .number-wrapper .three::before {
+        position: absolute;
+        content: "Project";
+        font-size: 180px;
+        left: -551px;
+        top: -153px;
+        letter-spacing: 56px;
+        color: #d6d6d640;
+        font-family: 'Rubik', sans-serif;
+    }
+
+    .wrapper .number-wrapper {
+        display: flex;
+        justify-content: space-around;
+        font-family: 'Ubuntu', sans-serif;
+        font-size: 30px;
+        margin-bottom: 300px;
+        margin-top: 208px;
+    }
+
+    .wrapper .blog-wrapper .picture .test {
+        width: 342px;
+        height: 591px;
+    }
+
+    .wrapper .blog-wrapper .picture .test :first-child {
+        width: 342px;
+        height: 337px;
+    }
+
+    .wrapper .blog-wrapper .picture .test .one {
+        width: 342px;
+        height: 337px;
+    }
+
+    .wrapper .blog-wrapper .picture .one span:nth-of-type(3) {
+        margin-left: 35px;
+    }
+
+    .wrapper .blog-wrapper .picture .one span:nth-of-type(2) {
+        margin-left: 30px;
+    }
+
+    .wrapper .blog-wrapper .picture .one span {
+        padding: 5px;
+    }
+
+    .wrapper .blog-wrapper .picture .one p {
+        padding: 10px;
+        margin-top: 40px;
+        margin-bottom: 50px;
+        font-size: 25px;
+    }
+
+    .wrapper .blog-wrapper .picture .test :last-child {
+        width: 342px;
+    }
+
+    .wrapper .blog-wrapper .picture {
+
+        margin-left: 1%;
+    }
+
+    .wrapper .sign-wrapper .name .pragraph p {
+        font-size: 35px;
+        margin-top: 40px;
+        margin-bottom: 186px;
+    }
+
+    .wrapper .photo-wrapper .side {
+        margin-top: 50px;
+        width: -webkit-fill-available;
+        height: 20px;
+        display: flex;
+    }
+
+    .wrapper .blog-wrapper .two {
+        margin-bottom: 200px;
+        margin-left: 0px;
+        margin-top: 40px;
+        width: -webkit-fill-available;
+    }
+
+}
+
+
+@media (min-width:768px) and (max-width:1151px) {
+    .wrapper {
+        padding: 0 3%;
+    }
+
+    .wrapper .container-wrapper .girl {
+        margin-top: 30px;
+        width: 728px;
+        height: 459px;
+    }
+
+    .wrapper .container-wrapper section {
+        display: flex;
+        flex-direction: column;
+        padding: 30px;
+        margin-top: 40px;
+    }
+
+    .wrapper .container-wrapper h1 {
+        font-family: 'Rubik', sans-serif;
+        font-size: 70px;
+        letter-spacing: 2px;
+    }
+
+    .wrapper .container-wrapper p {
+        font-family: 'Rubik', sans-serif;
+        font-size: 43px;
+    }
+
+    .wrapper .container-wrapper span {
+        font-family: 'Rubik', sans-serif;
+        font-size: 25px;
+    }
+
+    .wrapper .container-wrapper section .p {
+        width: 728px;
+    }
+
+    .wrapper .side-wrapper aside {
+        display: flex;
+        margin-top: 30px;
+        padding: 10px;
+        justify-content: center;
+    }
 
 }
 
@@ -521,17 +908,18 @@
 
 /* @media (max-width:320px) {}
 
-@media (min-width:768px) {
-   
-}
 
-@media (min-width:1152px) {
-    
-}
+
+
 
 @media (min-width:1440px) {
 
 }
 @media (min-width:1920px){
 
+}  */
+
+
+/* * {
+    outline: 1px solid red;
 } */
